@@ -267,3 +267,43 @@ a {
     margin-top: 5px;
     color: white;
 }
+
+
+.section5 h1{
+    font-family: Unbuntu;
+    font-size: 64px;
+    font-weight: bolder;
+    margin-left: 150px;
+    margin-top: -90px;
+}
+
+.section5 h3{
+    font-family: Unbuntu;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.section5 h5{
+    font-family: Unbuntu;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 237px;
+    margin-top: -38px;
+
+}
+
+.section5 p{
+    font-family: Unbuntu;
+    font-size: 18px;
+    margin-left: 237px;
+}
+
+.section5 img{
+    width: 600px;
+    height: 600px;
+    margin-left: 150px;
+    float: left;
+    z-index: -10;
+}
