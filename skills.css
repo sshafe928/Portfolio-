@@ -23,14 +23,14 @@ header ul {
     display: flex;
     align-items: center;
     margin-bottom: 210px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bolder;
 }
 
 li {
     margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 35px;
+    margin-left: 7px;
+    margin-right: 25px;
 }
 
 a {
