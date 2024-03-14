@@ -18,8 +18,8 @@ body{
     
     background-image: linear-gradient(
     #fcf6e4 0%,
-    #fcf6e4 37%,
-    rgb(10, 62, 34) 37%,
+    #fcf6e4 25%,
+    rgb(10, 62, 34) 25%,
     rgb(10, 62, 34) 70%,
     #fcf6e4 70%,
     #fcf6e4 100%
@@ -102,9 +102,9 @@ a {
 
     .section2 img{
         float: left;
-        width: 340px;
-        margin-left: calc(60% + 20px); 
-        margin-top: 95px;
+        width: 397px;
+        margin-left: calc(60% + 30px); 
+        margin-top: 205px;
         position: absolute;
         top: 0;
         left: 0;
@@ -115,11 +115,13 @@ a {
         z-index: -10;
         margin-top: 217px;
         max-height: 350px;
+        width: 357px;
     }
     
     #black{
         margin-top: 567px; 
         max-height: 170px;
+        width: 357px;
         z-index: -1;
     }
     
@@ -128,7 +130,7 @@ a {
         margin-top: 224px;
         max-height: 250px; 
         max-width: 250px;
-        margin-left: calc(63% + 20px);
+        margin-left: calc(63% + 43px);
     
     }
     
@@ -307,3 +309,4 @@ a {
     float: left;
     z-index: -10;
 }
+

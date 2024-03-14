@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Unbuntu;
+}
+
+header h1 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-right: 870px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 210px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+li {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main_image{
+    width: 1520px;
+}
