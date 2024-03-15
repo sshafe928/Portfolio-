@@ -18,10 +18,10 @@ body{
     
     background-image: linear-gradient(
     #fcf6e4 0%,
-    #fcf6e4 25%,
-    rgb(10, 62, 34) 25%,
-    rgb(10, 62, 34) 70%,
-    #fcf6e4 70%,
+    #fcf6e4 52%,
+    rgb(10, 62, 34) 52%,
+    rgb(10, 62, 34) 93%,
+    #fcf6e4 93%,
     #fcf6e4 100%
     
     );
@@ -79,11 +79,15 @@ a {
         font-size: 130px;
         margin-left: 200px;
         margin-top: -130px;
+        margin-bottom: 10px;
     }
 
     .section1 p{
         font-size: 20px;
         margin-left: 200px;
+        margin-bottom: 15px;
+        letter-spacing: 0.2px;
+        line-height: 29px;
     }
 
     .section1 button{
@@ -100,47 +104,49 @@ a {
         letter-spacing: 2px;
     }
 
-    .section2 img{
-        float: left;
-        width: 397px;
-        margin-left: calc(60% + 30px); 
-        margin-top: 205px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
+
     
     #green{
         z-index: -10;
-        margin-top: 217px;
-        max-height: 350px;
+        margin-top: 222px;
+        max-height: 370px;
         width: 357px;
     }
     
     #black{
-        margin-top: 567px; 
-        max-height: 170px;
+        margin-top: 587px; 
+        max-height: 200px;
         width: 357px;
         z-index: -1;
     }
     
     #beige{
         z-index: -10;
-        margin-top: 224px;
+        margin-top: 233px;
         max-height: 250px; 
         max-width: 250px;
         margin-left: calc(63% + 43px);
     
     }
     
+    .section2 img{
+        float: left;
+        width: 399px;
+        margin-left: calc(60% + 22px); 
+        margin-top: 215px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
     .section2 h1{
         font-family: Unbuntu;
         color: white;
         margin-left: calc(62% + 20px); 
         font-size:55px;
-        margin-top: -40px;
-        margin-left: 1010px; 
+        margin-top: -95px;
+        margin-left: 1035px; 
     }
     
     .section2 #contact{
@@ -158,8 +164,8 @@ a {
         padding: 20px 45px;
         font-weight: bolder;
         float: right;
-        margin-top: -415px;
-        margin-right: 485px ;
+        margin-top: -445px;
+        margin-right: 500px ;
         border-color: none; 
     }
     
@@ -170,7 +176,7 @@ a {
         padding: 20px 45px;
         font-weight: bolder;
         float: right;
-        margin-top: -255px;
+        margin-top: -305px;
         margin-right: 200px; 
         border: none;
     }
@@ -227,8 +233,8 @@ a {
     font-size: 50px;
     font-weight: bolder;
     color: #FFD33F;
-    margin-left: 865px;
-    margin-top: -60px;
+    margin-left: 845px;
+    margin-top: -50px;
 }
 
 .section4 h3{
@@ -236,7 +242,7 @@ a {
     font-family: Unbuntu;
     color: white;
     margin-left: 865px;
-    margin-top: 25px;
+    margin-top: -10px;
     
 }
 .section4 h3{
@@ -258,6 +264,7 @@ a {
     
 }
 
+
 #pre-p{
     margin-left: 885px;
     margin-top: 15px;
@@ -266,8 +273,18 @@ a {
 
 .section4 p{
     margin-left: 965px;
-    margin-top: 5px;
+    margin-top: 25px;
     color: white;
+    font-family: Unbuntu;
+}
+
+.section4 img{
+    width: 25px;
+    height:25px;
+    float:right;
+    position: absolute;
+    margin-left: 923px;
+    margin-top: 23px;
 }
 
 
@@ -304,9 +321,10 @@ a {
 
 .section5 img{
     width: 600px;
-    height: 600px;
+    height: 450px;
     margin-left: 150px;
     float: left;
     z-index: -10;
+    position: absolute;
 }
 
