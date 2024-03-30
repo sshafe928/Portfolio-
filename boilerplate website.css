@@ -18,10 +18,10 @@ body{
     height: 100vh;
     background: linear-gradient(
         to top,
-        rgb(0, 0, 0) 0%,
-        rgb(0, 0, 0) 17%,
-        rgb(10, 62, 34) 17%,
-        rgb(10, 62, 34) 100%
+        #2d364a 0%,
+        #2d364a 17%,
+        #f0edfb 17%,
+        #f0edfb 100%
     )
     } 
 
@@ -35,7 +35,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #7771b0;
     margin-right: 820px;
 }
 
@@ -56,14 +56,14 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #7771b0;
 }
 
 .highlight {
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 45px;
-    background-color: #FFD33F;
+    background-color: 6a6195;
     color: black;
     }
 
@@ -72,14 +72,14 @@ a {
     font-size: 180px;
     margin-left: 22%;
     line-height: 0.9;
-    color: #FFD33F;
+    color: #6a6195;
     z-index: -999;
     letter-spacing: 5px;
 }
 
 .normal{
     font-family: Unbuntu;
-    color: #fcf6e4;
+    color: #7771b0;
     font-size: 180px;
     font-weight:bold;
     position: absolute;
@@ -99,9 +99,9 @@ section img{
 }
 
 .section3 p{
-    background-color: rgb(10, 62, 34);
+    background-color: #f0edfb ;
     font-family: Unbuntu;
-    color: #fcf6e4;
+    color: #7771b0;
     font-size: 35px;
     line-height: 1.7;
     position: absolute;
