@@ -68,3 +68,43 @@ window.addEventListener('scroll', function() {
         footer.classList.remove('show');
     }
 });
+
+        var i = 0;
+        var txt = "I'm Sabrina!";
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("self-write").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', typeWriter);
+
+
+/* Check the location of each element */
+$('.content').each( function(i){
+
+    var bottom_of_object= $(this).offset().top + $(this).outerHeight();
+    var bottom_of_window = $(window).height();
+    
+    if( bottom_of_object > bottom_of_window){
+        $(this).addClass('hidden');
+    }
+    });
+
+    $(window).scroll( function(){
+      /* Check the location of each element hidden */
+        $('.hidden').each( function(i){
+        
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+        
+          /* If the object is completely visible in the window, fadeIn it */
+            if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1'},700);
+            }
+        });
+    });

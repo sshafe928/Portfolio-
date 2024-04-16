@@ -18,8 +18,8 @@ body{
     height: 100vh;
     background: linear-gradient(
         to top,
-        #2d364a 0%,
-        #2d364a 17%,
+        #7771b0 0%,
+        #7771b0 17%,
         #f0edfb 17%,
         #f0edfb 100%
     )
@@ -144,7 +144,7 @@ section img{
 
 
 .footer {
-    background: #2d364a;
+    background: #7771b0;
     padding: 30px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
@@ -154,7 +154,7 @@ section img{
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: gray;
+    color: #383552;
     font-size: 0.8em;
 }
 
