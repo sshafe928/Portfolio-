@@ -15,7 +15,7 @@
 
 body{
     width: 100%;
-    background: url("./Images/endless-constellation.svg");
+    background-color: #a492ba;
     
 } 
 
@@ -54,21 +54,22 @@ a {
 }
 
 #ribbon{
-    margin-left:9%;
-    margin-top: -12.5%;
+    margin-left:14%;
+    margin-top: -24.5%;
     z-index: -1; 
     position: absolute;
 }
 
 #resume{
     font-family: Londrina;
-    font-size: 130px;
-    margin-left: calc(35%); 
-    margin-top: -81px;
-    margin-bottom: 40px;
+    font-size: 110px;
+    margin-left: calc(36%); 
+    margin-top: -97px;
+    margin-bottom: 70px;
     line-height: .8;
     color: #7d5da4;
     letter-spacing: 5px;
+    rotate: 2deg;
 }
 
 /* Timeline */
@@ -208,7 +209,19 @@ background: linear-gradient(-45deg, #ccabf4, #a492ba);
 }
 }
 
+.expirience{
+    padding-left: 45px;
+    padding-top: 15px;
+}
 
+.education {
+    margin: 0 auto; 
+    margin-top: 15px;
+    max-width: 400px; 
+    text-align: left; 
+    margin-bottom: 25px;
+    padding-left: 95px;
+}
 
 
 .footer {
@@ -256,20 +269,59 @@ background: linear-gradient(-45deg, #ccabf4, #a492ba);
     margin: 0% 1%;
 }
 
-@media (max-width: 720px) {
-    .footer {
-        text-align: left;
-        padding: 5%;
+/* Media Queries */
+@media screen and (max-width: 1020px) {
+    .timeline ul li .content {
+        width: 41vw;
     }
-
-    .footer .row ul li {
-        display: block;
-        margin: 10px 0px;
-        text-align: left;
-    }
-
-    .footer .row a i {
-        margin: 0% 3%;
+    .timeline ul li:nth-child(even) .content {
+        left: calc(-41vw - 45px);
     }
 }
 
+@media screen and (max-width: 700px) {
+    .timeline ul li {
+        margin-left: 20px;
+    }
+    .timeline ul li .content {
+        width: calc(100vw - 100px);
+    }
+    .timeline ul li:nth-child(even) .content {
+        left: 45px;
+        background: #b9a6d0;
+        background: -webkit-linear-gradient(-45deg, #ccabf4, #a492ba);
+        background: linear-gradient(-45deg, #ccabf4, #a492ba);
+    }
+    .timeline ul li:nth-child(even) .content:before {
+        left: -33px;
+    }
+
+    /* Adjustments for other elements */
+    header h1 {
+        margin-right: 20px;
+    }
+    header ul {
+        margin-bottom: 50px;
+        font-size: 16px; 
+    }
+    #ribbon {
+        margin-left: 10%; 
+        margin-top: -30%; 
+
+    }
+    #resume {
+        font-size: 90px; 
+        margin-left: calc(34%); 
+        margin-top: -77px; 
+        margin-bottom: 50px; 
+    }
+    .footer {
+        padding: 20px 5%; 
+    }
+    .footer .row {
+        font-size: 0.7em; 
+    }
+    .footer .row ul li {
+        margin: 5px 0px; 
+    }
+}

@@ -143,18 +143,25 @@ section img{
 
 
 
+
 .footer {
-    background: #7771b0;
+    background: #f0edfb;
     padding: 30px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.footer.show {
+    opacity: 1;
 }
 
 .footer .row {
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: #383552;
+    color: gray;
     font-size: 0.8em;
 }
 
@@ -181,6 +188,7 @@ section img{
     font-size: 2em;
     margin: 0% 1%;
 }
+
 
 @media (max-width: 720px) {
     .footer {
