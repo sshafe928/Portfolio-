@@ -145,7 +145,7 @@ section img{
 
 
 .footer {
-    background: #f0edfb;
+    background: #7771b0;
     padding: 30px 0px;
     font-family: 'Play', sans-serif;
     text-align: center;
@@ -161,18 +161,18 @@ section img{
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
-    color: gray;
+    color: rgb(206, 206, 206);
     font-size: 0.8em;
 }
 
 .footer .row a {
     text-decoration: none;
-    color: gray;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
 
 .footer .row a:hover {
-    color: #fff;
+    color: rgb(196, 160, 221);
 }
 
 .footer .row ul {
