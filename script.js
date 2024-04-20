@@ -105,3 +105,30 @@ window.addEventListener('scroll', function() {
                 });
             });
         });
+
+var currentIndex2 = 0;
+const carouselItems = document.querySelectorAll('.carousel-item');
+
+function showProject(index) {
+    currentIndex2 = index;
+    carouselItems.forEach((item, i) => {
+        if (i === index) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+function prevProject() {
+    currentIndex2 = (currentIndex2 - 1 + carouselItems.length) % carouselItems.length;
+    showProject(currentIndex2);
+}
+
+function nextProject() {
+    currentIndex2 = (currentIndex2 + 1) % carouselItems.length;
+    showProject(currentIndex2);
+}
+
+// Show the initial project
+showProject(currentIndex2);

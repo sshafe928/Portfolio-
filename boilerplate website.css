@@ -8,6 +8,11 @@
     src: url(./Ubuntu_Condensed/UbuntuCondensed-Regular.ttf);
 }
 
+@font-face {
+    font-family: fear;
+    src: url(./fear-fluid/FearFluid-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -58,6 +63,10 @@ a {
     text-decoration: none;
     color: #7771b0;
 }
+#fear{
+    font-family: fear;
+}
+
 
 .highlight {
     padding-left: 6px;
