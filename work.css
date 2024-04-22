@@ -20,6 +20,7 @@
 
 body{
     width: 100%;
+    overflow-x: hidden;
     height: 100vh;
     background: linear-gradient(
         to top,
@@ -68,6 +69,14 @@ a {
     font-family: fear;
 }
 
+
+
+.instruction{
+    position: absolute;
+    font-size: medium;
+    margin-left: 26%;
+    margin-top: 5%;
+}
 .carousel {
     display: flex;
     overflow-x: auto;
