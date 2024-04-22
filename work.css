@@ -148,8 +148,27 @@ a {
     margin: 0% 1%;
 }
 
-
 @media (max-width: 720px) {
+    header h1 {
+        margin-right: 20px;
+    }
+
+    header ul {
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        margin-left: 20px;
+    }
+
+    .carousel p {
+        font-size: 35px; 
+    }
+
+    .carousel-item img {
+        width: 80%; 
+    }
+
     .footer {
         text-align: left;
         padding: 5%;

@@ -57,6 +57,10 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
+.section
+
+
 #fear{
     font-family: fear;
 }
@@ -277,7 +281,6 @@ background: linear-gradient(-45deg, #ccabf4, #a492ba);
     margin: 0% 1%;
 }
 
-/* Media Queries */
 @media screen and (max-width: 1020px) {
     .timeline ul li .content {
         width: 41vw;
@@ -304,7 +307,7 @@ background: linear-gradient(-45deg, #ccabf4, #a492ba);
         left: -33px;
     }
 
-    /* Adjustments for other elements */
+
     header h1 {
         margin-right: 20px;
     }

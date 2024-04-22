@@ -242,8 +242,81 @@ main{
     margin: 0% 1%;
 }
 
+
 @media (max-width: 720px) {
-    .footer {
+    header h1 {
+        margin-right: 20px;
+    }
+
+    header ul {
+        margin-bottom: 20px;
+    }
+
+    .section1 h1 {
+        font-size: 60px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .section1 #self-write {
+        font-size: 60px;
+        margin-left: 20px;
+        margin-top: -20px; 
+    }
+
+    .section1 p {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        line-height: 22px;
+    }
+
+    .section1 button {
+        padding: 8px 50px; 
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .section2 img {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        position: static;
+        z-index: 0;
+    }
+
+    .section2 h1 {
+        font-size: 35px;
+        margin-left: 10%;
+    }
+
+    .section2 #contact {
+        font-size: 14px;
+        margin-left: 10%;
+    }
+
+    .bubble1 {
+        padding: 15px 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+        box-shadow: none;
+    }
+
+    .bubble2 {
+        padding: 15px 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+        box-shadow: none;
+    }
+
+    #purple,
+    #black,
+    #beige {
+        display: none;
+    }
+
+    footer {
         text-align: left;
         padding: 5%;
     }

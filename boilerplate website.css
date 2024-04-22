@@ -67,6 +67,10 @@ a {
     font-family: fear;
 }
 
+section img{
+    max-width: 25%;
+    max-height: 75%;
+}
 
 .highlight {
     padding-left: 6px;
@@ -213,5 +217,34 @@ section img{
 
     .footer .row a i {
         margin: 0% 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        margin-right: 20px; 
+    }
+
+    header ul {
+        margin-bottom: 20px;
+    }
+
+    .special,
+    .normal {
+        font-size: 100px; 
+        margin-left: 10%;
+        margin-top: -130px; 
+    }
+
+    section img {
+        width: 100%; 
+        margin-left: 0; 
+        margin-top: 100px;
+    }
+
+    .section3 p {
+        font-size: 20px; 
+        margin-top: -300px; 
+        margin-left: 10%;
     }
 }
